@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">开源商城</string>
+    <string name="tab_home">首页</string>
+    <string name="tab_discover">发现</string>
+    <string name="tab_personal">我的</string>
+    <string name="tab_shop_cart">购物车</string>
+    <string name="tab_category">分类</string>
+</resources>

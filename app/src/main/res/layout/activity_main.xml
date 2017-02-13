@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.trampcr.openmall.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff">
+
+        <Button
+            android:id="@+id/tab_home_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/tab_home_selector"
+            android:onClick="changeTab"
+            android:text="@string/tab_home"
+            android:textColor="@drawable/tab_text_color"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/tab_category_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/tab_category_selector"
+            android:onClick="changeTab"
+            android:text="@string/tab_category"
+            android:textColor="@drawable/tab_text_color"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/tab_discover_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/tab_discover_selector"
+            android:onClick="changeTab"
+            android:text="@string/tab_discover"
+            android:textColor="@drawable/tab_text_color"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/tab_shop_cart_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/tab_shop_cart_selector"
+            android:onClick="changeTab"
+            android:text="@string/tab_shop_cart"
+            android:textColor="@drawable/tab_text_color"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/tab_personal_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/tab_personal_selector"
+            android:onClick="changeTab"
+            android:text="@string/tab_personal"
+            android:textColor="@drawable/tab_text_color"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
